@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Simple Webhook Trigger",
+  "version": "1.0.0",
+  "description": "One-click webhook trigger for your projects",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "icons": {
+    "128": "icon.png"
+  }
+}
