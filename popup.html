@@ -12,15 +12,20 @@
       <label for="webhookUrl">Webhook URL:</label>
       <input type="text" id="webhookUrl" placeholder="https://your-webhook-url.com">
     </div>
-    
+
+    <div class="form-group">
+      <label for="webhookParams">Parameters (JSON format):</label>
+      <textarea id="webhookParams" rows="5" placeholder='{\n  "key1": "value1",\n  "key2": "value2"\n}'></textarea>
+    </div>
+
     <div class="buttons">
-      <button id="saveButton">Save URL</button>
+      <button id="saveButton">Save Config</button>
       <button id="triggerButton">Trigger Webhook</button>
     </div>
-    
+
     <div id="statusMessage" class="status"></div>
   </div>
-  
+
   <script src="popup.js"></script>
 </body>
 </html>
